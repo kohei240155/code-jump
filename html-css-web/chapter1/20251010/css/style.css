@@ -64,5 +64,12 @@ a:hover {
 スマートフォン
 --------------------------------------------*/
 @media screen and (max-width: 767px) {
+  #header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 
+  #header .logo {
+    max-width: 120px;
+  }
 }
