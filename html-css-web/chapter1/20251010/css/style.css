@@ -60,6 +60,25 @@ a:hover {
   margin-left: 40px;
 }
 
+.mainvisual {
+  margin-bottom: 80px;
+}
+
+.introduction {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.introduction .catchphrase {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.introduction .text {
+  font-size: 14px;
+}
+
 /* -------------------------------------------
 スマートフォン
 --------------------------------------------*/
@@ -71,5 +90,21 @@ a:hover {
 
   #header .logo {
     max-width: 120px;
+  }
+
+  .mainvisual {
+    margin-bottom: 50px;
+  }
+
+  .introduction {
+    margin-bottom: 50px;
+  }
+
+  .introduction .catchphrase {
+    font-size: 16px;
+  }
+
+  .introduction .text {
+    text-align: left;
   }
 }
