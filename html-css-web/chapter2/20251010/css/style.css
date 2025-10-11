@@ -230,6 +230,26 @@ a:hover {
   right: -20px;
 }
 
+#footer {
+  background-color: #666;
+  padding: 30px;
+}
+
+#footer .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer .logo {
+  max-width: 130px;
+}
+
+#footer .copyright {
+  color: #fff;
+  font-size: 12px;
+}
+
 /* --------------------------------------------
 スマートフォン
 -------------------------------------------- */
@@ -338,5 +358,13 @@ a:hover {
 
   .online-store .box .title {
     font-size: 24px;
+  }
+
+  #footer {
+    padding: 15px 0;
+  }
+
+  #footer .logo {
+    max-width: 80px;
   }
 }
