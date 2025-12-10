@@ -56,6 +56,12 @@ a:hover {
   margin-left: 40px;
 }
 
+.wrapper-1080 {
+  max-width: 1120px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 /* --------------------------------------
 スマートフォン
 ---------------------------------------*/
@@ -144,5 +150,9 @@ a:hover {
   #header .hamburger.active span:nth-of-type(3) {
     top: 24px;
     transform: rotate(45deg);
+  }
+
+  .pc {
+    display: none;
   }
 }
